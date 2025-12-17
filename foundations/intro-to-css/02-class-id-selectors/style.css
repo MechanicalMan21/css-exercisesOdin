@@ -5,3 +5,18 @@
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 
 }
+
+#second {
+    color: #1c1c8c;
+    font-size: 36px;
+}
+
+.third {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: #18c942;
+    font-size: 24px;
+    font-weight: bold;
+}
