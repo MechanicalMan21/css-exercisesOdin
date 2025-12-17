@@ -1,1 +1,7 @@
 /* Add CSS Styling */
+
+.oddElem {
+    background-color: #bf2cb1;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+
+}
