@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 html, body {
   height: 100%;
 }
@@ -18,13 +17,13 @@ body {
 
 .modal {
   background: white;
-  width: 475px;
+  width: 485px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 10px;
+  gap: 20px;
   padding: 20px;
   
 }
@@ -82,6 +81,7 @@ button.cancel {
   margin-bottom: 11px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .confirmation {
