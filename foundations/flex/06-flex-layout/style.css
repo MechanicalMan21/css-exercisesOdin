@@ -27,6 +27,12 @@ input {
 
 /*change*/
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .header {
   display: flex;
   flex-direction: row;
