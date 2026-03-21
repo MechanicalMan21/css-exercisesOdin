@@ -27,6 +27,10 @@ input {
 
 /*change*/
 
+* {
+  border: 1px solid red;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -40,9 +44,10 @@ ul {
   justify-content: space-between;
 }
 
-/* .left-links, .right-links {
+.left-links, .right-links {
   display: flex;
-} */
+  gap: 10px;
+}
 
 .content {
   display: flex;
@@ -53,5 +58,6 @@ ul {
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-end;
 }
