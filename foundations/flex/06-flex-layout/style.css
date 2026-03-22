@@ -71,3 +71,8 @@ ul {
   justify-content: space-between;
   background: #eeeeee;
 } 
+
+button {
+  margin: 5px;
+  padding: 5px;
+}
