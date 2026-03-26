@@ -49,13 +49,11 @@ body {
 
 .middle-section {
   display: flex;
-
+  flex: 1;
 }
 
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  flex: 1 0 auto;
+
 }
 
 body {
