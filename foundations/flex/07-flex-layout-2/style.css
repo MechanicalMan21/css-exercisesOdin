@@ -27,3 +27,20 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*Changes*/
+
+.boxes {
+  display: flex-wrap;
+  gap: 10px;
+}
+
+.card {
+  width: 750px;
+  height: 750px; 
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
