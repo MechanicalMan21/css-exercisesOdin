@@ -30,6 +30,17 @@ body {
 
 /*Changes*/
 
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  align-items: center;
+  
+
+  font-weight: 900;
+  font-size: 32px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
@@ -39,6 +50,8 @@ body {
 .middle-section {
   display: flex;
 }
+
+
 
 /* .boxes {
   display: flex-wrap;
