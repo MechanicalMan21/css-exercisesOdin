@@ -49,6 +49,12 @@ body {
 
 .middle-section {
   display: flex;
+
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
   flex: 1 0 auto;
 }
 
@@ -67,6 +73,11 @@ ul {
   padding-left: 10px;
   padding-top: 10px;
 }
+
+/* .boxes {
+  display: flex;
+  flex-wrap: wrap;
+} */
 
 /* .boxes {
   display: flex-wrap;
