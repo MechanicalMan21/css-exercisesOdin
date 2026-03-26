@@ -58,6 +58,16 @@ body {
   justify-content: space-between;
 }
 
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
 /* .boxes {
   display: flex-wrap;
   gap: 10px;
