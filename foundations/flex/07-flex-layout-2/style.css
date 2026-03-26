@@ -30,7 +30,17 @@ body {
 
 /*Changes*/
 
-.boxes {
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-section {
+  display: flex;
+}
+
+/* .boxes {
   display: flex-wrap;
   gap: 10px;
 }
@@ -43,4 +53,4 @@ body {
 body {
   display: flex;
   flex-direction: row;
-}
+} */
