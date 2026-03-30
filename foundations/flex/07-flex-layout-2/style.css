@@ -32,7 +32,7 @@ body {
 .header {
   display: flex;
   justify-content: flex-start;
-  padding-left: 20px;
+  padding-left: 16px;
   align-items: center;
   
 
@@ -54,16 +54,26 @@ body {
 .sidebar {
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
   width: 300px;
+  padding: 16px;
 }
 
 .boxes {
-  padding: 20px;
+  padding: 48px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  width: 300px;
-  height: 300px;
+  margin-right: 10px;
+}
+
+.card {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 auto;
+
+  width: 320px;
 }
 
 body {
@@ -80,7 +90,12 @@ ul {
   margin: 0;
   padding-left: 10px;
   padding-top: 10px;
-  
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
 
 /* .boxes {
